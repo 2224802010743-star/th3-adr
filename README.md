@@ -39,8 +39,7 @@ Hiển thị:
 - Nhiệt độ cao nhất/thấp nhất.
 - Thời gian cập nhật.
 
-## Lưu ý
-API key không nên đưa lên GitHub công khai. Project này dùng API trực tiếp để phục vụ bài thực hành.
+
 
 
 ## Giao diện theo hình đề bài
