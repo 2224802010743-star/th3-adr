@@ -16,33 +16,4 @@ flutter pub get
 flutter run
 ```
 
-Có thể chạy Android Emulator hoặc điện thoại Android đã bật USB debugging.
-
-## . Chức năng
-
-### Trang chủ
-- Tìm kiếm thành phố.
-- Gợi ý từ danh sách thành phố Việt Nam.
-- Thành phố nổi bật: Hồ Chí Minh, Hà Nội, Đà Nẵng, Cần Thơ, Hải Phòng.
-- Bấm vào thành phố để xem chi tiết.
-
-### Trang chi tiết
-Hiển thị:
-- Tên thành phố và quốc gia.
-- Nhiệt độ hiện tại.
-- Mô tả thời tiết.
-- Cảm giác như.
-- Độ ẩm.
-- Tốc độ gió.
-- Áp suất.
-- Tầm nhìn.
-- Nhiệt độ cao nhất/thấp nhất.
-- Thời gian cập nhật.
-
-
-
-
-## Giao diện theo hình đề bài
-Màn hình chính đã được chỉnh theo hình mẫu: tiêu đề `MSSV - Dự báo thời tiết`, ô tìm kiếm có nút xanh, mục `Thành phố nổi bật`, 6 thành phố Hà Nội, Thành phố Hồ Chí Minh, Đà Nẵng, Tokyo, Paris và Thành phố New York; mỗi thẻ có icon, mô tả và nhiệt độ màu xanh.
-
 
