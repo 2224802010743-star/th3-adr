@@ -1,0 +1,19 @@
+TH3 - ỨNG DỤNG DỰ BÁO THỜI TIẾT
+Flutter project
+
+Các file chính:
+- lib/main.dart
+- lib/config.dart
+- lib/data/cities.dart
+- lib/models/weather.dart
+- lib/services/weather_service.dart
+- lib/screens/home_screen.dart
+- lib/screens/weather_detail_screen.dart
+- android/app/src/main/AndroidManifest.xml
+- android/app/src/main/kotlin/com/example/th3_ung_dung_du_bao_thoi_tiet/MainActivity.kt
+
+Nếu Android/Gradle của máy chưa được Flutter tạo đầy đủ, chạy:
+flutter create .
+Sau đó:
+flutter pub get
+flutter run
