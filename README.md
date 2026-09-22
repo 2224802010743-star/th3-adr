@@ -7,20 +7,7 @@
 - Dữ liệu thời tiết lấy từ OpenWeatherMap API.
 - Giao diện, màu sắc và icon có thể tùy chỉnh.
 
-## 1. Chuẩn bị OpenWeatherMap API Key
-
-1. Tạo tài khoản tại OpenWeatherMap.
-2. Tạo API key.
-3. Mở `lib/config.dart`.
-4. Thay:
-
-```dart
-const String openWeatherApiKey = 'YOUR_OPENWEATHER_API_KEY';
-```
-
-bằng API key của bạn.
-
-## 2. Chạy project
+## . Chạy project
 
 Mở Terminal tại thư mục project:
 
@@ -31,7 +18,7 @@ flutter run
 
 Có thể chạy Android Emulator hoặc điện thoại Android đã bật USB debugging.
 
-## 3. Chức năng
+## . Chức năng
 
 ### Trang chủ
 - Tìm kiếm thành phố.
@@ -59,8 +46,4 @@ API key không nên đưa lên GitHub công khai. Project này dùng API trực 
 ## Giao diện theo hình đề bài
 Màn hình chính đã được chỉnh theo hình mẫu: tiêu đề `MSSV - Dự báo thời tiết`, ô tìm kiếm có nút xanh, mục `Thành phố nổi bật`, 6 thành phố Hà Nội, Thành phố Hồ Chí Minh, Đà Nẵng, Tokyo, Paris và Thành phố New York; mỗi thẻ có icon, mô tả và nhiệt độ màu xanh.
 
-### Đổi MSSV
-Mở `lib/config.dart` và sửa:
-```dart
-const String studentId = 'MSSV';
-```
+
